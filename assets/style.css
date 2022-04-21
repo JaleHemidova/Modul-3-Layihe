@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Roboto";
+}
+.container{
+    margin: 0 120px;
+}
+header{
+    background-color:  #F5F5F6;
+    display: flex;
+    align-items: center;
+    padding: 10px 150px;
+}
+header a{
+    text-decoration: none;
+    color: #959BA4;
+    font-size: 13px;
+    font-weight: 500;
+    margin-right: 30px;
+    letter-spacing: .7px;
+}
+header .active {
+    color: black;
+}
+header button{
+    border: none;
+    padding: 12px;
+    background-color: #FFF;
+    border-radius: 8px;
+    font-weight: 700;
+}
+.box{
+    margin: 56px 360px;
+}
+article, aside{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+article p, aside p{
+    color: #9F9F9F;
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+section button{
+    padding: 10px 25px;
+    border: 1px solid #C6C6C6;
+    color: #C6C6C6;
+    margin-right: -5px;
+    background-color: #FFF;
+}
+.default{
+    background-color: #833AE0;
+    color: #FFF;
+}
+section button:nth-child(2){
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+section button:last-child{
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+aside div{
+    border: 1px solid #C6C6C6;
+    border-radius: 5px;
+    width: 318px;
+    padding: 10px;
+}
+aside p{
+    margin: 20px 15px;
+}
+aside input{
+    width: 270px;
+    height: 50px;
+    padding: 10px 15px;
+    font-weight: 700;
+    font-size: 36px;
+    border: none;
+}
+aside:last-child{
+    margin-right: -5px;
+}
