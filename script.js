@@ -51,6 +51,10 @@ function sendRequest(btn) {
         .then(data => {
             currentValyuta(data, btn);
         })
+        .catch(err => {
+            console.log(err)
+            alert("Something went wrong :(");
+        })
 }
 
 group1btns.forEach(btn1 => {
