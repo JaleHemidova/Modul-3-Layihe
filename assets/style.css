@@ -14,14 +14,14 @@ header{
     background-color:  #F5F5F6;
     display: flex;
     align-items: center;
-    padding: 10px 150px;
+    padding: 15px 190px;
 }
 header a{
     text-decoration: none;
     color: #959BA4;
     font-size: 13px;
     font-weight: 500;
-    margin-right: 30px;
+    margin-right: 20px;
     letter-spacing: .7px;
 }
 header .active {
@@ -35,7 +35,10 @@ header button{
     font-weight: 700;
 }
 .box{
-    margin: 56px 360px;
+    margin: 56px 400px;
+}
+h1{
+    font-size: 36px;
 }
 article, aside{
     display: flex;
