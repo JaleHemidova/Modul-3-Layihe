@@ -1,2 +1,2 @@
 # Modul-3-Layihe
-## https://zesty-fenglisu-a39793.netlify.app/
+## https://jalehemidova.github.io/Modul-3-Layihe/
