@@ -8,7 +8,7 @@ body{
     font-family: "Roboto";
 }
 .container{
-    margin: 0 120px;
+    margin: 0 100px;
 }
 header{
     background-color:  #F5F5F6;
@@ -21,8 +21,8 @@ header a{
     color: #959BA4;
     font-size: 13px;
     font-weight: 500;
-    margin-right: 20px;
-    letter-spacing: .7px;
+    margin-right: 10px;
+    /* letter-spacing: .7px; */
 }
 header .active {
     color: black;
@@ -35,7 +35,7 @@ header button{
     font-weight: 700;
 }
 .box{
-    margin: 56px 400px;
+    margin: 56px 380px;
 }
 h1{
     font-size: 36px;
@@ -51,7 +51,7 @@ article p, aside p{
     margin-bottom: 10px;
 }
 section button{
-    padding: 10px 25px;
+    padding: 10px 20px;
     border: 1px solid #C6C6C6;
     color: #C6C6C6;
     margin-right: -5px;
@@ -72,14 +72,14 @@ section button:last-child{
 aside div{
     border: 1px solid #C6C6C6;
     border-radius: 5px;
-    width: 318px;
+    width: 278px;
     padding: 10px;
 }
 aside p{
     margin: 20px 15px;
 }
 aside input{
-    width: 270px;
+    width: 250px;
     height: 50px;
     padding: 10px 15px;
     font-weight: 700;
