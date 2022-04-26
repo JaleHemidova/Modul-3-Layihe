@@ -1,6 +1,3 @@
-const p1 = document.querySelector(".first + p");
-const p2 = document.querySelector(".second + p");
-
 const group1btns = document.querySelectorAll(".group1 button");
 const group2btns = document.querySelectorAll(".group2 button");
 
@@ -11,6 +8,9 @@ let clicked2 = null;
 
 let input1 = document.querySelector(".first");
 let input2 = document.querySelector(".second");
+
+const p1 = document.querySelector(".first + p");
+const p2 = document.querySelector(".second + p");
 
 function currentValyuta(data, btn) {
     const value = data.rates[clicked2];
@@ -33,9 +33,9 @@ function currentValyuta(data, btn) {
             }
         })
     })
-
     p1.innerText = `1 ${clicked1} = ${value} ${clicked2}`;
     p2.innerText = `1 ${clicked2} = ${1 / value} ${clicked1}`;
+    
 }
 function sendRequest(btn) {
     clicked1 = document.querySelector(".group1 .default").innerText;
@@ -43,6 +43,8 @@ function sendRequest(btn) {
     //console.log(clicked1, clicked2);
     if (clicked1 == clicked2) {
         input2.value = input1.value;
+        p1.innerText = `1 ${clicked1} = 1 ${clicked2}`;
+        p2.innerText = `1 ${clicked1} = 1 ${clicked2}`;
         return;
     }
 
